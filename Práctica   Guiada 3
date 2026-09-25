@@ -1,0 +1,38 @@
+<!-- <html> es la etiqueta raíz que envuelve y marca el inicio de todo el documento HTML -->
+<html>
+    
+    <!-- <head> (cabecera) contiene información técnica del sitio que no se muestra directamente en el cuerpo de la página -->
+    <head>
+        <!-- <title> define el nombre de la página que aparecerá en la pestaña superior de tu navegador -->
+        <title>pagina WEB de ejemplo: texto</title>
+    </head>
+    
+    <!-- <body> (cuerpo) encierra todo el contenido visual que el usuario leerá o verá en la pantalla -->
+    <body>
+        
+        <!-- El texto suelto se imprime directamente. -->
+        esta es linea, y a continuacion insertamos un salto de linea.
+        
+        <!-- <br/> (Break Rule) genera un salto de línea, funcionando igual que presionar la tecla "Enter" en un procesador de texto -->
+        <br/>
+        
+        <!-- <center> es una etiqueta que centra horizontalmente todo el contenido que esté dentro de ella. (Requiere su etiqueta de cierre </center>) -->
+        <center>esta es otra linea</center>
+        
+        esta es una linea, y a continuacion insertamos un salto de linea
+        
+        <!-- Otro salto de línea -->
+        <br/>
+        
+        <!-- <p> define un bloque de Párrafo. 
+             El atributo align="left" indica que el texto de este párrafo se alineará hacia la izquierda (comportamiento por defecto). -->
+        <p align="left">el texto de este parrafo esta alineado a la izquierda (por defecto, si no se indica) </p>
+        
+        <!-- align="center" fuerza al texto de este párrafo específico a posicionarse en el centro de la pantalla -->
+        <p align="center">el texto de este parrafo esta alineado al centro</p>
+        
+        <!-- align="right" fuerza al texto de este párrafo a alinearse hacia el margen derecho de la pantalla -->
+        <p align="right">el texto de este parrafo esta alineado a la derecha</p>
+        
+     </body>
+</html>
