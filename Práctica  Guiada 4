@@ -1,0 +1,40 @@
+<!-- <html> es la etiqueta raíz que envuelve y marca el inicio de todo el documento HTML -->
+<html>
+
+<!-- <head> contiene la configuración, metadatos y el título de la página (no visible directamente en la pantalla) -->
+<head>
+    <!-- <title> define el texto que se muestra en la pestaña superior del navegador -->
+    <title>Página WEB de ejemplo: texto</title>
+</head>
+
+<!-- <body> encierra todo el contenido visual de la página.
+     El atributo text="orange" establece que todo el texto base del sitio sea de color naranja por defecto -->
+<body text="orange">
+
+    <!-- <b> aplica texto en negrita (bold).
+         <u> aplica un subrayado (underline) al texto.
+         <br/> inserta un salto de línea. -->
+    <b>Esta es una línea</b>, y a continuación <b><u>insertamos un salto</u></b> de línea.<br/>
+
+    <!-- Combinación de texto normal con texto subrayado mediante <u> -->
+    Esta es una línea, y <u>a continuación insertamos</u> un salto de línea.<br/>
+
+    <!-- <strong> resalta el texto con importancia semántica (se visualiza en negrita).
+         <i> aplica formato en cursiva/itálica (italic). -->
+    Esta es una línea, y <strong>a continuación</strong> insertamos un <i>salto de línea</i>.<br/>
+
+    <!-- <font> permite modificar la apariencia de la letra (propiedad de HTML antiguo, hoy reemplazada por CSS).
+         color="green" cambia el texto a verde.
+         size="11px" establece el tamaño de la fuente. -->
+    <font color="green" size="11px">Esta es una línea</font>, y a continuación insertamos un <i>salto de línea</i>.<br/>
+
+    <!-- face="Arial" cambia la tipografía/fuente del texto a Arial.
+         color="red" cambia el color del fragmento seleccionado a rojo. -->
+    <font face="Arial">Esta es una</font> línea, y <font color="red">a continuación</font> insertamos un salto de línea.
+
+    <!-- <p> crea un bloque de párrafo con espacio previo y posterior.
+         color="cyan" modifica el texto encerrado para que sea de color cian (azul claro). -->
+    <p>Este es una párrafo <font color="cyan">con <u>la letra</u> en <b>diferentes formatos</b></font>.</p>
+
+</body>
+</html>
